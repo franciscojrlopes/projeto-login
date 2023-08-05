@@ -39,3 +39,7 @@ section#Login {
     height: 500px;
     border-radius: 20px;
 }
+
+section#Login > div {
+    background: #5f2c82 url(../imagens/pexels-pixabay-414837.jpg);
+}
