@@ -13,6 +13,23 @@
         float: right;
         width: 40%;
     }
+    }
+    @media screen and (min-width: 992px){
+
+    section#Login {
+        width: 900px;
+     }  
+     
+    section#Login > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    } 
 
 
-}
+    }
+
+
+    
+
+
