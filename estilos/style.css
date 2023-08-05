@@ -31,4 +31,7 @@ main {
 
 section#Login {
     background-color: white;
+    width: 250px;
+    height: 500px;
+    
 }
