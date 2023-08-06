@@ -25,16 +25,18 @@
         <div class="campo">
             <span class="material-symbols-outlined">mail</span>
            
-            <input type="email" name="login" id="ilogin" placeholder="Seu e-mail"autocomplete="e-mail">
+            <input type="email" name="login" id="ilogin" placeholder="Seu e-mail"autocomplete="e-mail" required maxlength="30" >
             <label for="iLogin">Login</label>
         </div>
 
         <div class="campo">
             <span class="material-symbols-outlined">vpn_key_alert</span>            
-            <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password">
+            <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" required minlength="8" maxlength="20">
             <label for="isenha">Senha</label>
         </div>
-
+        <input type="submit" value="Entrar">
+        <a href="esqueci.html">Esqueci a senha </a>  <i class="material-symbols-outlined"></i>        
+        
         </form>
     </div>
         </section>
