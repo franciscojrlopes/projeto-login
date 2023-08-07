@@ -78,5 +78,14 @@ form > input[type=submit] {
     color: white;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 
+}
+
+form > input[type=submit]:hover {
+    background-color: #153c3c3d;
+    }
+
+form > a.botao{
+    display: block;
 }
