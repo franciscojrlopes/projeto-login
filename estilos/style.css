@@ -82,6 +82,13 @@ div.campo > label{
     display: none;
 }
 
+div.campo > span{
+
+    color: white;
+    font-size: 2em;
+
+}
+
 form > input[type=submit] {
     display: block;
     font-size: 1em;
